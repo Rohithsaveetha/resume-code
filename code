@@ -1,0 +1,96 @@
+\documentclass[a4paper,8pt]{article} % Set font size to 8pt
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{left=0.75in, right=0.75in, top=0.5in, bottom=0.5in} % Adjust margins for compactness
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{parskip} % Adds space between paragraphs
+\setlength{\parindent}{0pt} % Removes paragraph indentation
+
+% Underline for section
+\newcommand{\sectionunderline}{\vspace{1ex}\noindent\rule{\textwidth}{0.4pt}\vspace{1ex}}
+
+% Section formatting
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\vspace{-1ex}]
+
+% Document begins
+\begin{document}
+
+% Name and Contact Info
+\noindent
+\textbf{\large Rohith Kumar Dodla} \\
+\href{https://linkedin.com/in/rohithkumar}{LinkedIn: linkedin.com/in/rohithkumar} \\
+\href{https://github.com/Rohithsaveetha}{GitHub: github.com/Rohithsaveetha} \hfill
+Email: \href{mailto:dodlarohithkumar3@gmail.com}{dodlarohithkumar3@gmail.com} \\
+Mobile: +91-9390445254
+
+\vspace{1ex} % Adds some space before the Education section
+
+\section*{EDUCATION}
+\sectionunderline
+\vspace{-1ex} % Adjusts the space between the underline and content
+\textbf{Saveetha Institute of Medical and Technical Sciences (SIMATS)} \\
+\textbf{B.Tech - AI and DS} \hfill Chennai, T.N, India \\
+CGPA: 8.6  \hfill July 2021 - June 2025
+
+\vspace{1ex} % Adds space before the next education entry
+\textbf{UmaMaheshwara Junior College} \\
+\textbf{Intermediate - MPC} \hfill Ongole, A.P, India \\
+Percentage: 94.7 \hfill July 2019 - June 2021
+
+\vspace{1ex} % Adds space before the next education entry
+\textbf{Oxford E.M High School} \\
+\textbf SSC CGPA: 9.8 \hfill Kandukur, A.P, India
+
+\section*{SKILL SUMMARY}
+\sectionunderline
+\vspace{-1ex} % Adjusts the space between the underline and content
+\textbf{Languages}: C, JAVA, HTML, CSS \\
+\textbf{Soft Skills}: Leadership, Event Management, Writing, Public Speaking, Time Management \\
+\textbf{Technologies}: Machine Learning, Deep Learning \\
+\textbf{Other Skills}: Entrepreneurship, Short-film Making, EMCEE, Sales, Social Media Branding, Drone Pilot
+
+\section*{EXPERIENCE}
+\sectionunderline
+\vspace{-1ex} % Adjusts the space between the underline and content
+\textbf{Co-Founder \& Director, Teklozy EdTech} \hfill June 2024 - Present \\
+- Led an EdTech startup, teaching coding to students from 6th to 16th grade.
+
+\vspace{1ex} % Adds space before the next experience entry
+\textbf{Intern, Garuda Aerospace} \hfill May 2023 - Aug 2023 \\
+- Drone Pilot in Jodhpur (Rajasthan) and Ujjain (M.P).
+
+\section*{PROJECTS}
+\sectionunderline
+\vspace{-1ex} % Adjusts the space between the underline and content
+\textbf{Major Project: Waterbody Detection in Landsat 8 OLI Images} \\
+- Developed deep learning models to analyze satellite imagery for environmental monitoring.
+
+\vspace{1ex} % Adds space before the next project entry
+\textbf{Minor Project: AI-Based Temperature Nano Coaster} \\
+- Created a system to monitor liquid temperatures and alert users.
+
+\vspace{1ex} % Adds space before the next project entry
+\textbf{Ideation Project: Solar-Based Power Bank} \\
+- Designed a solar-powered charging solution for mobile devices.
+
+\section*{POSITION OF RESPONSIBILITY}
+\sectionunderline
+\vspace{-1ex} % Adjusts the space between the underline and content
+\textbf{EMCEE, SIMATS Annual Function} \\
+- Hosted the Annual Fest, showcasing leadership and public speaking skills.
+
+\vspace{1ex} % Adds space before the next position entry
+\textbf{Coordinator, SSE Kala Utsav} \\
+- Organized the symposium, demonstrating leadership capabilities.
+
+\section*{CERTIFICATIONS}
+\sectionunderline
+\vspace{-1ex} % Adjusts the space between the underline and content
+\textbf{Oracle Cloud Infrastructure Generative AI} \\
+\textbf{Aviatrix Certified Engineer for Multicloud Network Associate} \\
+\textbf{NPTEL Certification in Data Science for Engineers}
+
+\end{document}
